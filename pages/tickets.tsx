@@ -64,8 +64,9 @@ export default function Tickets() {
           </TableRow>
         </TableBody>
       </Table>
-      <div className="flex justify-evenly">
-        <a href="https://www.zeffy.com/en-US/ticketing/2026-taascon-x-ecaasu-conference-registration-nc-students-only-duke-university-final">
+      <div className="flex flex-wrap justify-evenly">
+        <a href="https://www.zeffy.com/en-US/ticketing/2026-taascon-x-ecaasu-conference-registration-nc-students-only-duke-university-final"
+        className="pb-5 md:pb-0">
           <Button
             variant="outline"
             className="border-foreground rounded-none hover:bg-foreground hover:text-background text-foreground"

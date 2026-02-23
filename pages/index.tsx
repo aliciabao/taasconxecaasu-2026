@@ -8,7 +8,7 @@ import Faqs from "./faqs";
 
 export default function Home() {
   return (
-    <div className="px-20">
+    <div className="px-5 md:px-20">
       <NavBar />
       <Hero />
       <div className="py-5 px-4 md:py-10 md:px-30">

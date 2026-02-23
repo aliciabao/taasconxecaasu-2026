@@ -25,10 +25,11 @@ export default function Hero() {
 
   return (
     <div className="flex flex-col flex-wrap justify-evenly items-center pb-10 text-background bg-foreground">
-      <div className="text-center self-center mr-10 py-10">
-        <h1 className="text-5xl font-bold font-tenor">TAASCONxECAASU</h1>
-        <h2 className="text-2xl font-eb">March 27-29th @ Duke University</h2>
-      </div>
+  <div className="text-center mx-auto pt-10 md:py-10 w-full px-4">
+    <h1 className="text-3xl md:text-5xl font-bold font-tenor break-words">TAASCONxECAASU</h1>
+    <h2 className="text-lg md:text-2xl font-eb break-words">March 27-29th @ Duke University</h2>
+  </div>
+
 
       <div className="w-1/3 hidden md:block">
         <Carousel setApi={setApi} opts={{ loop: true }}>
