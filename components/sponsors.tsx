@@ -46,7 +46,7 @@ export default function Sponsors() {
 
 
   return (
-    <div>
+    <div className='text-background bg-foreground p-10'>
       <LogoCloud logos={logos}/>
     </div>
   );

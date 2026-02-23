@@ -13,17 +13,13 @@ import { Button } from "@/components/ui/button";
 export default function Tickets() {
   return (
     <div className="pb-10">
-      <h1 className="text-3xl font-bold pb-10">Ticket Pricing</h1>
-      <Table>
-        {/* <TableCaption>Discount available for NC students!</TableCaption> */}
-        {/* <TableHeader>
-          <TableRow>
-            <TableHead className="w-[100px]">Invoice</TableHead>
-            <TableHead>Status</TableHead>
-            <TableHead>Method</TableHead>
-            <TableHead className="text-right">Amount</TableHead>
-          </TableRow>
-        </TableHeader> */}
+      <h1 className="text-3xl font-bold">Ticket Pricing</h1>
+      <p className="text-sm text-foreground">
+        Please review our{" "}
+        <a href="https://drive.google.com/file/d/15BS8H2A1j-No-6yWKqdTz97oiKU_c0K9/view?usp=sharing" className="underline pb-10">Attendee Code of Conduct</a>
+      {" "}before proceeding with registration.
+      </p>
+      <Table className="mb-5">
         <TableBody>
           <TableRow className="line-through">
             <TableCell className="text-left font-medium">
@@ -68,12 +64,22 @@ export default function Tickets() {
           </TableRow>
         </TableBody>
       </Table>
-      <div className="flex justify-center">
+      <div className="flex justify-evenly">
         <a href="https://www.zeffy.com/en-US/ticketing/2026-taascon-x-ecaasu-conference-registration-nc-students-only-duke-university-final">
-          <Button variant="link">NC Student Tickets</Button>{" "}
+          <Button
+            variant="outline"
+            className="border-foreground rounded-none hover:bg-foreground hover:text-background text-foreground"
+          >
+            Buy NC Student Tickets Here
+          </Button>{" "}
         </a>
         <a href="https://www.zeffy.com/en-US/ticketing/2026-taascon-x-ecaasu-conference-registration-duke-university">
-          <Button variant="link">Buy Tickets</Button>
+          <Button
+            variant="outline"
+            className="border-foreground rounded-none hover:bg-foreground hover:text-background text-foreground"
+          >
+            Buy Tickets Here
+          </Button>
         </a>
       </div>
     </div>

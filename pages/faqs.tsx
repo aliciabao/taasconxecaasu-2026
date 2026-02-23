@@ -72,7 +72,7 @@ export default function Faqs() {
         className="space-y-3"
       >
         {faqs.map((faq) => (
-          <AccordionItem key={faq.value} value={faq.value} className="">
+          <AccordionItem key={faq.value} value={faq.value}>
             <AccordionTrigger>
               <span>{faq.question}</span>
             </AccordionTrigger>
@@ -109,11 +109,10 @@ export default function Faqs() {
             </ul>
           </AccordionContent>
         </AccordionItem>
-
       </Accordion>
 
-      <p className="text-center text-sm text-gray-400 mt-10">
-        Still have questions? Reach out to us!
+      <p className="text-center text-sm text-foreground">
+        Still have questions? Reach out to us at <a href="mailto:registration@ecaasu.org" className="underline">registration@ecaasu.org</a>!
       </p>
     </div>
   );

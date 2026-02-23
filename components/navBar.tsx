@@ -10,24 +10,28 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <header className="bg-background sticky top-0 z-50">
+    <header className="bg-background sticky top-0 z-50 font-tenor">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-8 px-4 py-7 sm:px-6">
         <div className="text-muted-foreground flex flex-1 items-center gap-8 font-medium md:justify-center lg:gap-16">
-          <a href="#about" className="hover:text-primary max-md:hidden">
+          <a href="/" className="text-foreground">
+            TAASCONxECAASU
+          </a>
+
+          <a href="#about" className="hover:text-foreground max-md:hidden">
             About Us
           </a>
-          <a href="#schedule" className="hover:text-primary max-md:hidden">
+          <a href="#schedule" className="hover:text-foreground max-md:hidden">
             Schedule
           </a>
-          <a href="/">
-            <img className="h-10" src="/globe.svg" alt="Logo" />
-          </a>
-          <a href="#faqs" className="hover:text-primary max-md:hidden">
+          <a href="#faqs" className="hover:text-foreground max-md:hidden">
             FAQs
           </a>
-          <Link href="#tickets" className="hover:text-primary max-md:hidden">
+          <Link href="#tickets" className="hover:text-foreground max-md:hidden">
             Tickets
           </Link>
+          <a href="#sponsors" className="hover:text-foreground max-md:hidden">
+            Sponsors
+          </a>
         </div>
       </div>
     </header>

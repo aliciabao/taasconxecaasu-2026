@@ -1,7 +1,6 @@
 import Hero from "@/components/hero";
 import NavBar from "@/components/navBar";
 import Sponsors from "@/components/sponsors";
-import Theme from "@/components/theme";
 import About from "@/components/about";
 import Tickets from "@/pages/tickets";
 import Schedule from "./schedule";
@@ -9,10 +8,10 @@ import Faqs from "./faqs";
 
 export default function Home() {
   return (
-    <div>
+    <div className="px-20">
       <NavBar />
       <Hero />
-      <div className="py-10 px-75">
+      <div className="py-5 px-4 md:py-10 md:px-30">
         <section id="about">
           <About />
         </section>
@@ -28,11 +27,10 @@ export default function Home() {
         <section id="tickets">
           <Tickets />
         </section>
-
-        <section id="sponsors">
-          <Sponsors />
-        </section>
       </div>
+      <section id="sponsors">
+        <Sponsors />
+      </section>
     </div>
   );
 }

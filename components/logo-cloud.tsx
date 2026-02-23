@@ -11,16 +11,16 @@ const LogoCloud = ({ logos }: { logos: Logos[] }) => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="space-y-4 text-center pb-10">
-          <h2 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
+          <h1 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
             Thank you to our 2026 sponsors!{" "}
-          </h2>
-          <p className="text-muted-foreground text-xl">
+          </h1>
+          {/* <p className="text-muted-foreground text-xl">
             Proudly partnering with local businesses and organizations.
-          </p>
+          </p> */}
         </div>
         <Card className="py-14">
-          <CardContent className="px-14 text-2xl font-semibold">
-            <h1 className="text-center">Sponsor Reveal Coming Soon</h1>
+          <CardContent className="px-14 text-2xl font-semibold bg-color-background">
+            <h2 className="text-center text-foreground">Sponsor Reveal Coming Soon</h2>
             {/* <div className="flex flex-wrap items-center justify-center gap-x-16 gap-y-8 max-sm:flex-col">
               {logos.map((logo, index) => (
                 <img

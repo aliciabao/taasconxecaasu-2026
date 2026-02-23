@@ -7,7 +7,7 @@ const schedule = [
     hours: "3 – 9:30PM",
     items: [
       { time: "3:00 PM", label: "Registration Check-in" },
-      { time: "Evening", label: "Opening Ceremony w/ Keynote Speaker" },
+      { time: "Evening", label: "Opening Ceremony with Helen Zia" },
       { time: "Evening", label: "Optional Social Mixer (off-site)" },
     ],
   },
