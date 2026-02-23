@@ -1,27 +1,22 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/9dbac280c5101e15.js"
+    "static/chunks/7e43d4484ad43a7f.js"
   ],
   "/_error": [
-    "static/chunks/2ba51d806a357c05.js"
+    "static/chunks/cf0ca8c475715a88.js"
   ],
   "/faqs": [
-    "static/chunks/2d7e42bbab574521.js"
+    "static/chunks/4ab44d4c59018d75.js"
   ],
   "/schedule": [
-    "static/chunks/ba7424a3030a3379.js"
+    "static/chunks/fb34058fa591cee8.js"
   ],
   "/tickets": [
-    "static/chunks/30db3074ca396bc0.js"
+    "static/chunks/74b55c7bedfcea6f.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [
-      {
-        "source": "/taasconxecaasu-2026//_next/:path+",
-        "destination": "/taasconxecaasu-2026/_next/:path+"
-      }
-    ],
+    "beforeFiles": [],
     "fallback": []
   },
   "sortedPages": [
