@@ -29,7 +29,7 @@ const schedule = [
   {
     day: "Sunday",
     date: "March 29th",
-    hours: "Check-out day",
+    hours: "Check-out",
     items: [
       { time: "", label: "No formal programming– optional activities!" },
     ],
