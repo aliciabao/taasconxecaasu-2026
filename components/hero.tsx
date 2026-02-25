@@ -26,7 +26,8 @@ export default function Hero() {
   return (
     <div className="flex flex-col flex-wrap justify-evenly items-center pb-10 text-background bg-foreground">
   <div className="text-center mx-auto pt-10 md:py-10 w-full px-4">
-    <h1 className="text-3xl md:text-5xl font-bold font-tenor break-words">TAASCONxECAASU</h1>
+    <h1 className="text-3xl md:text-5xl font-bold font-tenor inline">TAASCONx</h1>
+    <h1 className="text-3xl md:text-5xl font-bold font-tenor sm:inline">ECAASU</h1>
     <h2 className="text-lg md:text-2xl font-eb break-words">March 27-29th @ Duke University</h2>
   </div>
 
