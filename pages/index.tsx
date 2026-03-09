@@ -8,7 +8,7 @@ import Faqs from "./faqs";
 
 export default function Home() {
   return (
-    <div className="px-5 md:px-20">
+    <div>
       <NavBar />
       <Hero />
       <div className="py-5 px-4 md:py-10 md:px-30">
@@ -26,6 +26,9 @@ export default function Home() {
 
         <section id="tickets">
           <Tickets />
+          <div className="flex justify-center">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1LsSx01ubuHaXw2A9Sul0VvLU5Ct5SBw&ehbc=2E312F" width="640" height="480"></iframe>
+          </div>
         </section>
       </div>
       <section id="sponsors">

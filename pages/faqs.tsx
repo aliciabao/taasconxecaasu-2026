@@ -17,25 +17,14 @@ export default function Faqs() {
       value: "item-2",
       question: "Will transportation be provided?",
       answer:
-        "Attendees are expected to arrange their own transportation to the venue. Duke University has free university buses and is accessible from UNC via the Robertson Express — pretty convenient!",
-    },
-    {
-      value: "item-3",
-      question: "Where can we find parking?",
-      answer:
-        "We recommend parking at your hotel first. That way you're all set without worrying about campus lots!",
+        "Attendees are expected to arrange their own transportation to the venue. Duke University has free university buses and is accessible from UNC via the Robertson Express!",
     },
     {
       value: "item-4",
       question: "Will meals be provided?",
       answer:
         "Yes! Breakfast, lunch, and dinner will all be provided on Saturday by amazing local Triangle Area businesses. After registering, you'll get a form to share dietary restrictions and a sneak peek at the menu.",
-    },
-    // {
-    //   value: "item-5",
-    //   question: "Are hotel group rates available?",
-    //   answer: "Yes — discounted hotel block info is coming soon. Stay tuned!",
-    // },
+    }
   ];
 
   const partnerHotels = [
@@ -79,7 +68,29 @@ export default function Faqs() {
             <AccordionContent>{faq.answer}</AccordionContent>
           </AccordionItem>
         ))}
-                <AccordionItem value="item-5">
+
+        <AccordionItem value="item-3">
+          <AccordionTrigger>
+            <span>Where can we find parking?</span>
+          </AccordionTrigger>
+          <AccordionContent>
+            Parking for attendees will be reimbursed on a first come, first
+            served basis. Attendees can purchase a day pass ($10) and be
+            reimbursed using a form that will be released after conference
+            weekend. For more information, visit{" "}
+            <a
+              href="https://parking.duke.edu/occasional-parking-options/"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Duke Parking & Transportation
+            </a>
+            .
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="item-5">
           <AccordionTrigger>
             <span>Are hotel group rates available?</span>
           </AccordionTrigger>
@@ -90,7 +101,7 @@ export default function Faqs() {
                 <li key={hotel.name}>
                   <p className="font-semibold">{hotel.name}</p>
                   <p className="text-sm text-muted-foreground">{hotel.address}</p>
-                  <a href={hotel.bookingLink} className="text-sm underline">
+                  <a href={hotel.bookingLink} className="text-sm underline" target="_blank" rel="noopener noreferrer">
                     Book here
                   </a>
                 </li>
@@ -112,7 +123,11 @@ export default function Faqs() {
       </Accordion>
 
       <p className="text-center text-sm text-foreground">
-        Still have questions? Reach out to us at <a href="mailto:registration@ecaasu.org" className="underline">registration@ecaasu.org</a>!
+        Still have questions? Reach out to us at{" "}
+        <a href="mailto:registration@ecaasu.org" className="underline">
+          registration@ecaasu.org
+        </a>
+        !
       </p>
     </div>
   );

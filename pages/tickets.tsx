@@ -71,7 +71,7 @@ export default function Tickets() {
             variant="outline"
             className="border-foreground rounded-none hover:bg-foreground hover:text-background text-foreground"
           >
-            Buy NC Student Tickets Here
+            NC Student Tickets Here
           </Button>{" "}
         </a>
         <a href="https://www.zeffy.com/en-US/ticketing/2026-taascon-x-ecaasu-conference-registration-duke-university">
@@ -79,7 +79,15 @@ export default function Tickets() {
             variant="outline"
             className="border-foreground rounded-none hover:bg-foreground hover:text-background text-foreground"
           >
-            Buy Tickets Here
+            General Admission Tickets
+          </Button>
+        </a>
+        <a href="https://www.zeffy.com/en-US/ticketing/2026-taascon-x-ecaasu-conference-registration-duke-university-under--18">
+           <Button
+            variant="outline"
+            className="border-foreground rounded-none hover:bg-foreground hover:text-background text-foreground"
+          >
+            Under 18 Tickets
           </Button>
         </a>
       </div>

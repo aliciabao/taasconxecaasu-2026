@@ -26,12 +26,13 @@ export default function NavBar() {
           <a href="#faqs" className="hover:text-foreground max-md:hidden">
             FAQs
           </a>
-          <Link href="#tickets" className="hover:text-foreground max-md:hidden">
+          <a href="#tickets" className="hover:text-foreground max-md:hidden">
             Tickets
-          </Link>
+          </a>
           <a href="#sponsors" className="hover:text-foreground max-md:hidden">
             Sponsors
           </a>
+          <Link href="https://www.zeffy.com/en-US/donation-form/donate-to-the-2026-taascon-x-ecaasu-conference" target="_blank" className="hover:text-foreground max-md:hidden">Donate</Link>
         </div>
       </div>
     </header>

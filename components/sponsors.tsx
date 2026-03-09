@@ -3,51 +3,42 @@ import LogoCloud from '@/components/logo-cloud'
 export default function Sponsors() {
   const logos = [
   {
-    image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/amazon-logo-bw.png',
-    alt: 'Amazon'
+    image: './oca.png',
+    alt: 'OCA', 
+    url: 'https://www.ocanational.org/'
   },
-  // {
-  //   image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/hubspot-logo-bw.png',
-  //   alt: 'HubSpot'
-  // },
-  // {
-  //   image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/walmart-logo-bw.png',
-  //   alt: 'Walmart'
-  // },
-  // {
-  //   image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/microsoft-logo-bw.png',
-  //   alt: 'Microsoft'
-  // },
-  // {
-  //   image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/evernote-icon-bw.png',
-  //   alt: 'Evernote'
-  // },
-  // {
-  //   image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/paypal-logo-bw.png',
-  //   alt: 'PayPal'
-  // },
-  // {
-  //   image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/airbnb-logo-bw.png',
-  //   alt: 'Airbnb'
-  // },
-  // {
-  //   image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/adobe-logo-bw.png',
-  //   alt: 'Adobe'
-  // },
-  // {
-  //   image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/shopify-logo-bw.png',
-  //   alt: 'Shopify'
-  // },
-  // {
-  //   image: 'https://cdn.shadcnstudio.com/ss-assets/brand-logo/huawei-logo-bw.png',
-  //   alt: 'Huawei'
-  // }
+  {
+    image: './apia-vote.png',
+    alt: 'apia vote', 
+    url: 'https://apiavote.org/'
+  },
+  {
+    image: './ncaat-square.png',
+    alt: 'apia vote', 
+    url: 'https://ncaat.org/'
+  }
 ]
-
+  const partners = [
+    {
+    image: './bean-flower.png',
+    alt: 'The Bean Flower', 
+    url: 'https://thebeanflower.com/'
+  },
+  {
+    image: './momos-master.png',
+    alt: "Momo's Master", 
+    url: 'https://www.momosmaster.com/'
+  },
+  {
+    image: './bonjour.png',
+    alt: 'Bonjour Banh Mi & tea', 
+    url: 'https://bonjourbanhmi-tea.com/'
+  }
+  ]
 
   return (
     <div className='text-background bg-foreground p-10'>
-      <LogoCloud logos={logos}/>
+      <LogoCloud logos={logos} partners={partners}/>
     </div>
   );
 }
