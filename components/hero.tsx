@@ -33,9 +33,9 @@ export default function Hero() {
       <div className="w-3/8 hidden md:block">
         <Carousel setApi={setApi} opts={{ loop: true }}>
           <CarouselContent>
-            <CarouselItem>
-              <img src="./carousel-hz.png" />
-            </CarouselItem>
+            {/* <CarouselItem>
+              <img src="heidi kim poster" />
+            </CarouselItem> */}
             <CarouselItem>
               <img src="./carousel-1.jpg" />
             </CarouselItem>

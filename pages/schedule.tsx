@@ -7,7 +7,7 @@ const schedule = [
     hours: "4 – 9:30PM",
     items: [
       { time: "4:00 - 7:00PM", label: "Registration Check-in" },
-      { time: "6:30PM", label: "Opening Ceremony" },
+      { time: "6:30PM", label: "Opening Ceremony with Dr. Heidi Kim, Former Director of the Asian American Center @ UNC Chapel Hill, Professor of English and Comparative Literature" },
       { time: "7:45PM", label: "Optional Social Mixer (off-site)" },
     ],
   },
